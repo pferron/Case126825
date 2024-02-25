@@ -3,7 +3,7 @@ import sbt.VersionScheme
 addSbtPlugin("com.github.sbt" % "sbt-jacoco" % "3.4.0")
 
 //sbt-scoverage is a plugin for SBT that integrates the scoverage code coverage library.
-addSbtPlugin("org.scoverage" % "sbt-scoverage" % "2.0.7")
+addSbtPlugin("org.scoverage" % "sbt-scoverage" % "2.0.11")
 
 //SonarQube Integration
 addSbtPlugin("com.sonar-scala" % "sbt-sonar" % "2.3.0")
