@@ -1,6 +1,6 @@
 import sbt.VersionScheme
 //Generate JaCoCo reports for test coverage.
-addSbtPlugin("com.github.sbt" % "sbt-jacoco" % "3.4.0")
+addSbtPlugin("com.github.sbt" % "sbt-jacoco" % "3.5.0")
 
 //sbt-scoverage is a plugin for SBT that integrates the scoverage code coverage library.
 addSbtPlugin("org.scoverage" % "sbt-scoverage" % "2.0.7")
