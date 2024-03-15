@@ -9,7 +9,7 @@ addSbtPlugin("org.scoverage" % "sbt-scoverage" % "2.0.7")
 addSbtPlugin("com.sonar-scala" % "sbt-sonar" % "2.3.0")
 
 //For generating über jar file
-addSbtPlugin("com.eed3si9n" % "sbt-assembly"  % "2.1.1")
+addSbtPlugin("com.eed3si9n" % "sbt-assembly"  % "2.2.0")
 
 ThisBuild / libraryDependencySchemes ++= Seq(
   "org.scala-lang.modules" %% "scala-xml" % VersionScheme.Always
